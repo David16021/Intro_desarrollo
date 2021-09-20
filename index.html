@@ -3,15 +3,41 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Mis imagenes</title>
+        <title>Manejo de tablas</title>
     </head>
     <body>
-        <h1>mis comidas favoritas</h1>
 
-        <h2>mi hamburguesa favorita</h2>
-        <img src="https://bit.ly/3tYax29" alt="hamburguer" title="Mi hamburguesa favorita" width="400px" >
-        
-        <h2>mi ensalada favorita</h2>
-        <img src="https://bit.ly/3zmhwDb" alt="salad" title="Mi ensalada favorita">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Ciudad</th>
+                    <th>Fumadores</th>
+                    <th>No fumadores</th>
+                    <th>TOTAL</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Barranquilla</td>
+                    <td>60</td>
+                    <td>40</td>
+                    <td>100L</td>
+                </tr>
+                <tr>
+                    <td>New York</td>
+                    <td>50</td>
+                    <td>50</td>
+                    <td>100</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    
+                    <td colspan="3">Total</td>
+                    <td>200</td>
+                </tr>
+            </tfoot>
+            </table>
     </body>
 </html>
