@@ -10,7 +10,7 @@
         <!-- Campo de texto -->
         <p>
             <label for="camponombre">Nombre:</label>
-            <input type="text" name="nombre" id="camponombre">
+            <input type="text" name="nombre" id="camponombre" placeholder="Nombre" autofocus required> <!--disabled para desabilitar campo-->
         </p>
 
         <!-- Campo de contraseña -->
@@ -23,7 +23,7 @@
         <!-- Campo de email-->
         <p>
             <label for="email">Email:</label>
-            <input type="email" name="email" id="email">    
+            <input type="email" name="email" id="email" maxlength="30" placeholder="email@dominio.com" required>    
         </p>
 
         <!-- Campo de fecha -->
@@ -56,7 +56,7 @@
 
         <p>
             <label for="numero">Numero</label>
-            <input type="number" name="numero" id="numero">
+            <input type="number" name="numero" id="numero" max="30" min="0" step="3">
         </p>
 
         <!-- Campo de rango-->
