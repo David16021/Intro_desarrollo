@@ -1,6 +1,7 @@
-body{
-    color: red;
-}
-h1{
+p{
     color: blue;
+}
+
+p{
+    color: yellow !important;
 }
