@@ -1,4 +1,54 @@
-.subtitulo{
-    color: blue;
-    font-size: 50px;
+/*
+a[title]{
+    color: red;
 }
+*/
+
+/*
+[title]{
+    color: red;
+}
+*/
+
+/*
+a[href="pagina2.html"]{
+    color: red;
+}
+*/
+
+/*
+a[href$="html"]{
+    color: red;
+}
+*/
+
+/*
+a[href^="pagina"]{
+    color: red;
+}
+*/
+
+/*
+a[title~="dos"]{
+    color: red;
+}
+*/
+
+/*
+a[class|="social"]{
+    color:red;
+}
+*/
+
+/*
+a[href*="pagina"]{
+    color: red;
+}
+*/
+
+
+
+
+
+
+
