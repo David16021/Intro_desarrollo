@@ -1,54 +1,34 @@
-/*
-a[title]{
-    color: red;
-}
-*/
+/* Selectores Avanzados */
 
+/*Selector universal: Todos los elementos */
 /*
-[title]{
-    color: red;
-}
-*/
-
-/*
-a[href="pagina2.html"]{
-    color: red;
-}
-*/
-
-/*
-a[href$="html"]{
-    color: red;
-}
-*/
-
-/*
-a[href^="pagina"]{
-    color: red;
-}
-*/
-
-/*
-a[title~="dos"]{
-    color: red;
-}
-*/
-
-/*
-a[class|="social"]{
+*{
     color:red;
 }
 */
 
+/*Selector adyasente: Elemento precedido por otro elemento*/
 /*
-a[href*="pagina"]{
+h1 + h2{
+    color:red;
+}
+*
+/*Selector de hermanos: elemento hermano de otro elemento sin necesidad de estar precedido por él*/
+/*
+h1 ~ h2{
+    color:red;
+}
+*/
+
+/*Selector decendente: Aplica a los elementos contenidos por el otro elemento indicado sin ser estrictamenete el hijo directo */
+/*
+section p{
     color: red;
 }
 */
 
+/*Selector de hijo directo: Aplica la propiedad al hijo directo*/
 
-
-
-
-
-
+section > p{
+    color: red;
+}
