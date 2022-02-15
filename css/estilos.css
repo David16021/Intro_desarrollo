@@ -11,19 +11,14 @@ a{
     text-decoration: none;
 }
 
-a:hover{
-    background-color: green;
-
+p::after{
+    content: " ";
+    display: block;
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 10px;
 }
 
-a:active{
-    background-color: blue;
-}
-
-a:visited{
-    background-color: red;
-}
-
-p:nth-child(3){
-    color: red;
-}
