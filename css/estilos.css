@@ -1,9 +1,29 @@
-
-a:hover{
-    color: green;
+ul li{
+    list-style-type: none;
+    display: inline;
 }
 
+a{
+    display: inline-block;
+    background-color: #01413A;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
 
-p::first-line{
+a:hover{
+    background-color: green;
+
+}
+
+a:active{
+    background-color: blue;
+}
+
+a:visited{
+    background-color: red;
+}
+
+p:nth-child(3){
     color: red;
 }
