@@ -1,34 +1,9 @@
-/* Selectores Avanzados */
 
-/*Selector universal: Todos los elementos */
-/*
-*{
-    color:red;
+a:hover{
+    color: green;
 }
-*/
 
-/*Selector adyasente: Elemento precedido por otro elemento*/
-/*
-h1 + h2{
-    color:red;
-}
-*
-/*Selector de hermanos: elemento hermano de otro elemento sin necesidad de estar precedido por él*/
-/*
-h1 ~ h2{
-    color:red;
-}
-*/
 
-/*Selector decendente: Aplica a los elementos contenidos por el otro elemento indicado sin ser estrictamenete el hijo directo */
-/*
-section p{
-    color: red;
-}
-*/
-
-/*Selector de hijo directo: Aplica la propiedad al hijo directo*/
-
-section > p{
+p::first-line{
     color: red;
 }
