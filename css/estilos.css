@@ -1,28 +1,21 @@
-/* Unidades de medida relativas
-PX = PIXELES
-
-EM = UNIDAD RELATIVA AL TAMAÑO DE FUENTE DEL CONTENEDOR
-PADRE O MAS CERCANO
-
-REM = UNIDAD RELATIVA AL TAMAÑO DE FUENTE DEL BODY
-
-% = UNIDAD RELATIVA A LA MEDIDA DEL CONTENEDOR PADRE 
-
-*/
-
-
-body{
-    font-size: 16px;
-}
-p{
-    font-size: 1.2em;
+h1, p, div{
+    background-color: #dddddd;
+    width: 300px;
+    height: 100px;
+    padding: 30px;
+    border: 1px;
+    margin: 10px;
+    display: inline-block;
 }
 
-.padre{
-    font-size: 30px;
+a{
+    background-color: black;
+    color: white;
+    display: block;
+    width: 100px;
 }
-.caja{
-    width: 50%;
-    height: 15rem;
-    background-color: red;
-}
+
+
+
+
+
