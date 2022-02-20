@@ -1,21 +1,25 @@
-h1, p, div{
-    background-color: #dddddd;
-    width: 300px;
-    height: 100px;
-    padding: 30px;
-    border: 1px;
-    margin: 10px;
-    display: inline-block;
+.padre{
+    width: 700px;
+    background-color: purple;
 }
 
-a{
-    background-color: black;
+.caja{
+    width: 200px;
+    height: 200px;
+    font-size: 40px;
     color: white;
-    display: block;
-    width: 100px;
+    background-color: green;
+    margin: 20px;
 }
 
+.primera{
+    float: left;
+}
 
+.segunda{
+    float: left;
+}
 
-
-
+.limpiar{
+    clear: both;
+}
