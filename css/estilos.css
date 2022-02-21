@@ -1,34 +1,25 @@
 *{
     margin: 0;
     padding: 0;
-}
-
-.caja{
-    width: 200px;
-    height: 200px;
-    background-color: #dddddd;
-    margin: 20px;
+    box-sizing: border-box;
 }
 
 .padre{
-    width: 500px;
-    height: 500px;
-    background-color: purple;
-    position: relative;
-}
-
-.posicionada{
+    width: 80%;
+    max-width: 800px;
+    /*height: 800px;*/
     background-color: green;
-    position: absolute;
-    bottom: 0;
 
 }
 
-/*
-POSICION ESTATICA 
-POSICION RELATIVA
-POSICION ABSOLUTA
-POSICION FIJA
-POSICION FLOTANTE
 
-*/
+.caja{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 20px;
+    padding: 10px;
+    font-size: 50px;
+    text-align: center;
+}
+
