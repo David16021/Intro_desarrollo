@@ -1,42 +1,30 @@
-/* 
-alineador de texto
+/*Propiedad de sombras para texto*/
+h1,p{
+    text-shadow: 5px 5px 3px black;
+}
+
+/*Prefijos de los navegadores*/
+
+/*
+-moz-:para navegadores basados en Gecko como Mozilla
+-webkit: para navegadores basados en webkit, como chrome
+-o-: para opera
+-ms-: para internet explorer y edge 
 */
 
-p{
-    text-align: justify;
+/*Prefijos 
+http://shouldiprefix.com/
+para usar el js
+https://projects.verou.me/prefixfree/
+*/
+
+img{
+    width: 500px;
+/*
+    -webkit-box-shadow: 5px 5px 3px #858585;
+    -moz-box-shadow: 5px 5px 3px #858585;
+    -o-box-shadow: 5px 5px 3px #858585;
+    -ms-box-shadow: 5px 5px 3px #858585;
+    box-shadow: 5px 5px 3px #858585;*/
 }
-
-/*Indentar texto
-
-p{
-    text-indent: 100px;
-}*/
-
-
-/*Decorar*/
-
-p{
-    text-decoration: none;
-}
-
-/* transformar texto*/
-
-p{
-    text-transform: none;
-}
-
-/*Espacio entre letras 
-p{
-    letter-spacing: 5px;
-}*/
-
-/*Espacio entre palabras*/
-p{
-    word-spacing: 10px;
-}
-
-p{
-    color: green;
-}
-
 
