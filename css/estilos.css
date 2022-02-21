@@ -1,10 +1,42 @@
-p{
-    font-family: "Times new roman", monospace, cursive;
+/* 
+alineador de texto
+*/
 
-    font-size: 1.5em;
-    font-style: italic;
-    font-weight: bold;
+p{
+    text-align: justify;
 }
 
+/*Indentar texto
+
+p{
+    text-indent: 100px;
+}*/
+
+
+/*Decorar*/
+
+p{
+    text-decoration: none;
+}
+
+/* transformar texto*/
+
+p{
+    text-transform: none;
+}
+
+/*Espacio entre letras 
+p{
+    letter-spacing: 5px;
+}*/
+
+/*Espacio entre palabras*/
+p{
+    word-spacing: 10px;
+}
+
+p{
+    color: green;
+}
 
 
