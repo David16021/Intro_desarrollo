@@ -1,5 +1,38 @@
-video{
+/*@media print{
+    img {
+        width: 100%;
+    }
+    h1{
+        color: red;
+        text-align: center;
+    }
+}
+
+@media screen {
+    img{
+        width: 50%;
+    }
+    h1{
+        color: purple;
+        text-align: right;
+    } */
+
+img{
     width: 50%;
 }
 
+
+
+@media all and (min-width:421px) and (max-width:768px){
+    img{
+        width: 80%;
+    }
+}
+
+
+@media all and (max-width:420px){
+    img{
+        width: 100%;
+    }
+}
 
