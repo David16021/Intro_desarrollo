@@ -1,52 +1,25 @@
-.contenedor-padre{
-    width: 80%;
-    max-width: 800px;
-    margin: auto;
-
-/*Por nombre de color */
-/*-color: ;*/
-
-/*por codigo hexadecimal */
-/*color: #ffffff  ;*/
-
-/* por codigo RGB  */
-/*background-color: rgb(0, 0, 0);*/
-/*por codigo HSL*/
-/*color: hsl(0, 0%, 100%);*/
-
-/*iMAGEN DE FONFO */
-/*prefijos ó añadirle el prefijo js*/
-background-image: url(https://www.vvsupremo.com/wp-content/uploads/2018/05/Pepperoni-Pizza-1.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-
-border-radius: 10px 50px 20px 5px;
-
+table, tr, th, td{
+    border: 1px solid black;
 }
 
-.contenedor-hijo{
-    /*Degradado lineal*/
-
-    /*background: linear-gradient(#ffffff,black,purple);*/
-
-    /*Degradado radial*/
-
-    /*background: radial-gradient(#ffffff, black, purple);
-    uso de cssmatic page
-    */
-
-    background: linear-gradient(#ffffff, black, purple);
-    box-shadow: 5px 5px 3px red;
-
+table{
+    border-collapse: collapse;
     width: 100%;
-    height: 300%;
-    padding-top: 100px;
+}
 
+td,th{
+    height: 50px;
     text-align: center;
-    border-radius: 10px 50px 20px 5px;
+    vertical-align: middle;
+
 
 }
+
+
+tr:nth-child(odd){
+    background-color: #dddddd;
+}
+
 
 
 
