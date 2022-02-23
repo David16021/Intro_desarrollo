@@ -1,26 +1,7 @@
-table, tr, th, td{
-    border: 1px solid black;
-}
-
-table{
-    border-collapse: collapse;
+img{
     width: 100%;
+    max-width: 500px;
 }
-
-td,th{
-    height: 50px;
-    text-align: center;
-    vertical-align: middle;
-
-
-}
-
-
-tr:nth-child(odd){
-    background-color: #dddddd;
-}
-
-
 
 
 
