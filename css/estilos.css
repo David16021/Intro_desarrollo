@@ -1,13 +1,31 @@
+@keyframes entrar-salir {
+    /*from{
+        background-color: blue;
+    }
+    to{
+        background: green;
+    }*/
+
+    0%{background-color: blue; }
+    25%{background-color: purple ;transform: translatex(200px);}
+    50%{background-color: red; transform: translatey(200px)}
+    75%{background-color: yellow;}
+    100%{background-color: green;}
+
+}
+
+
 .cuadro{
     width: 200px;
     height: 200px;
     background-color: blue;
     margin: 50px;
-
-    transition: all 5s ease;
+/*
+    animation-name: entrar-salir;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+*/
+    animation: entrar-salir 5s ease infinite;
+    
 }
 
-.cuadro:hover{
-    background-color: red;
-    transform: rotate(50deg);
-}
