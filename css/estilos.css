@@ -4,6 +4,8 @@
     background-color: blue;
     margin: 50px;
 
-    transform: translate(200px,50px)
+
+    transform: skew(20deg, 20deg);
+
 }
 
