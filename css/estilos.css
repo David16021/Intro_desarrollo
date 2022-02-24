@@ -4,6 +4,6 @@
     background-color: blue;
     margin: 50px;
 
-    transform: rotate(-10deg);
+    transform: scale(2,2);
 }
 
