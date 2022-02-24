@@ -4,7 +4,10 @@
 
 body{
     background-color: #858585;
- 
+    color: white;
+    font-size: 30px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .contenedor{
@@ -21,25 +24,50 @@ body{
 }
 
 .caja1{
-    width: 100%;
+    width: 20%;
     background-color: green;
-    height: 300px;
+    height: 500px;
+    
 }
 
 .caja2{
-    width: 50%;
+    width: 60%;
     background-color: aqua;
-    height: 200px;
+    height: 500px;
 }
 
 .caja3{
-    width: 50%;
+    width: 20%;
     background-color: blue;
-    height: 200px;
+    height: 500px;
 }
 
-@media all and (max-width:420px){
-    .caja2, .caja3{
+@media all and (man-width:421px) and (max-width:768px){
+
+    .caja1{
+        width: 30%;
+    }
+    .caja2{
+        width: 70%;
+    }
+    .caja3{
         width: 100%;
+    }
+}
+
+
+@media all and (max-width:420px){
+
+    .caja1{
+        width: 100%;
+        order: 2;
+    }
+    .caja2{
+        width: 100%;
+        order: 1;
+    }
+    .caja3{
+        width: 100%;
+        order: 3;
     }
 }
