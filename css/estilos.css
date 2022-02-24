@@ -4,6 +4,6 @@
     background-color: blue;
     margin: 50px;
 
-    transform: scale(2,2);
+    transform: translate(200px,50px)
 }
 
