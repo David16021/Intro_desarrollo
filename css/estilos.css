@@ -19,7 +19,8 @@
   header{
     width: 100%;
     height: 200px;
-    background-color: #fcfff5;
+    /* background-color: #fcfff5; */
+    background-color: white;
   }
   
   .logo{
@@ -102,6 +103,13 @@
     padding: 10px 50px;
     background-color: rgba(0,0,0,0.47);
     margin-top: 35px;
+
+    transition: all 0.03s ease-in-out;
+  }
+
+  .llamada-accion a:hover {
+    background-color: rgba(0,0,0,0.8);
+
   }
   /*FIN DE BANNER PRINCIPAL*/
   
@@ -132,6 +140,11 @@
   /*FIN DE SECCION DE BIENVENIDA*/
   
   /*SECCION DE SOBRE NOSOTROS*/
+
+  .nosotros{
+    padding-bottom: 80px;
+  }
+
   .nosotros > .contenedor{
     display: flex;
     flex-direction: row;
@@ -183,6 +196,20 @@
   .conocenos a{
     font-size: 15px;
     color: #0e96dd;
+  }
+
+  /**/
+  @media all and (min-width:769px){
+    .nosotros{
+      padding-top: 80px;
+    }
+    .foto-equipo{
+      margin-right: 30px;
+    }
+    .conocenos{
+      padding-left: 30px;
+      text-align: left;
+    }
   }
   
   /*FIN DE SECCION DE SOBRE NOSOTROS*/
